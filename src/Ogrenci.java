@@ -57,6 +57,10 @@ public class Ogrenci {
         return harc;
     }
 
+    public void setHarc(double harc) {
+        this.harc = harc;
+    }
+
     @Override
     public String toString() {
         return "Ogrenci{" +
